@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<AssemblyName>ICS.Exercise.Core</AssemblyName>
+		<RootNamespace>ICS.Exercise</RootNamespace>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\Equipment\Equipment.Core\Equipment.Core.csproj" />
+		<ProjectReference Include="..\..\Muscle\Muscle.Core\Muscle.Core.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="ICS.Equipment" />
+		<Using Include="ICS.Muscle" />
+		<Using Include="System.Collections.ObjectModel" />
+		<Using Include="System.ComponentModel" />
+		<Using Include="System.Text.Json.Serialization" />
+	</ItemGroup>
+
+</Project>

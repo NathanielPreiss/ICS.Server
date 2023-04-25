@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<AssemblyName>ICS.Exercise.Application</AssemblyName>
+		<RootNamespace>ICS.Exercise</RootNamespace>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Autofac" Version="6.4.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.4.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Exercise.Service\Exercise.Service.csproj" />
+	</ItemGroup>
+
+	<ItemGroup Condition=" '$(Configuration)' == 'Debug' ">
+		<ProjectReference Include="..\Exercise.Migration\Exercise.Migration.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="Autofac" />
+		<Using Include="ICS.Equipment" />
+		<Using Include="ICS.Muscle" />
+		<Using Include="Microsoft.AspNetCore.Authorization" />
+		<Using Include="Microsoft.AspNetCore.Http" />
+		<Using Include="Microsoft.AspNetCore.Mvc" />
+		<Using Include="Microsoft.Data.SqlClient" />
+		<Using Include="Microsoft.EntityFrameworkCore" />
+		<Using Include="Microsoft.Extensions.Logging" />
+		<Using Include="Swashbuckle.AspNetCore.Annotations" />
+		<Using Include="System.ComponentModel.DataAnnotations" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,128 @@
+﻿<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Abductors" xml:space="preserve">
+		<value>Abductores</value>
+	</data>
+	<data name="Adductors" xml:space="preserve">
+		<value>Aductores</value>
+	</data>
+	<data name="AnteriorDeltoid" xml:space="preserve">
+		<value>Deltoides Anterior</value>
+	</data>
+	<data name="BicepsBrachii" xml:space="preserve">
+		<value>Bíceps Braquial</value>
+	</data>
+	<data name="Brachialis" xml:space="preserve">
+		<value>Braquial</value>
+	</data>
+	<data name="Brachioradialis" xml:space="preserve">
+		<value>Braquiorradial</value>
+	</data>
+	<data name="ErectorSpinae" xml:space="preserve">
+		<value>Erector de la Columna</value>
+	</data>
+	<data name="Flexors" xml:space="preserve">
+		<value>Flexores</value>
+	</data>
+	<data name="Gastrocnemius" xml:space="preserve">
+		<value>Gastrocnemio</value>
+	</data>
+	<data name="GluteusMaximus" xml:space="preserve">
+		<value>Glúteo Mayor</value>
+	</data>
+	<data name="Hamstrings" xml:space="preserve">
+		<value>Isquiotibiales</value>
+	</data>
+	<data name="Infraspinatus" xml:space="preserve">
+		<value>Infraespinoso</value>
+	</data>
+	<data name="LateralDeltoid" xml:space="preserve">
+		<value>Deltoides Lateral</value>
+	</data>
+	<data name="LatissimusDorsi" xml:space="preserve">
+		<value>Dorsal Ancho</value>
+	</data>
+	<data name="LevatorScapulae" xml:space="preserve">
+		<value>Elevador de la Escápula</value>
+	</data>
+	<data name="Obliques" xml:space="preserve">
+		<value>Oblicuos</value>
+	</data>
+	<data name="PectoralisMajor" xml:space="preserve">
+		<value>Pectoral Mayor</value>
+	</data>
+	<data name="PectoralisMinor" xml:space="preserve">
+		<value>Pectoral Menor</value>
+	</data>
+	<data name="PosteriorDeltoid" xml:space="preserve">
+		<value>Deltoides Posterior</value>
+	</data>
+	<data name="QuadratusLumborum" xml:space="preserve">
+		<value>Cuadrado Lumborum</value>
+	</data>
+	<data name="Quadriceps" xml:space="preserve">
+		<value>Cuadríceps</value>
+	</data>
+	<data name="RectusAbdominis" xml:space="preserve">
+		<value>Recto Abdominal</value>
+	</data>
+	<data name="Rhomboids" xml:space="preserve">
+		<value>Romboides</value>
+	</data>
+	<data name="SerratusAnterior" xml:space="preserve">
+		<value>Serrato Anterior</value>
+	</data>
+	<data name="Soleus" xml:space="preserve">
+		<value>Sóleo</value>
+	</data>
+	<data name="Splenius" xml:space="preserve">
+		<value>Esplendor</value>
+	</data>
+	<data name="Sternocleidomastoid" xml:space="preserve">
+		<value>Esternocleidomastoideo</value>
+	</data>
+	<data name="Supraspinatus" xml:space="preserve">
+		<value>Supraespinoso</value>
+	</data>
+	<data name="Subscapularis" xml:space="preserve">
+		<value>Subescapular</value>
+	</data>
+	<data name="Teres" xml:space="preserve">
+		<value>Teres</value>
+	</data>
+	<data name="TransverseAbdominis" xml:space="preserve">
+		<value>Transverso del Abdomen</value>
+	</data>
+	<data name="TibialisAnterior" xml:space="preserve">
+		<value>Tibial Anterior</value>
+	</data>
+	<data name="Trapezius" xml:space="preserve">
+		<value>Trapecio</value>
+	</data>
+	<data name="TricepsBrachii" xml:space="preserve">
+		<value>Tríceps Braquial</value>
+	</data>
+	<data name="WristExtendors" xml:space="preserve">
+		<value>Extensores de Muñeca</value>
+	</data>
+	<data name="WristFlexors" xml:space="preserve">
+		<value>Flexores de Muñeca</value>
+	</data>
+	<data name="WristPronator" xml:space="preserve">
+		<value>Pronador de Muñeca</value>
+	</data>
+	<data name="WristSupinator" xml:space="preserve">
+		<value>Supinador de Muñeca</value>
+	</data>
+</root>

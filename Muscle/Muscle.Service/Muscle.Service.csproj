@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<AssemblyName>ICS.Muscle.Service</AssemblyName>
+		<RootNamespace>ICS.Muscle</RootNamespace>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Muscle.Infrastructure\Muscle.Infrastructure.csproj" />
+		<ProjectReference Include="..\Muscle.Mapping\Muscle.Mapping.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="Microsoft.Extensions.Logging" />
+	</ItemGroup>
+
+</Project>

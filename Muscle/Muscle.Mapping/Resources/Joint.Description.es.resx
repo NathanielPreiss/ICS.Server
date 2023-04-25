@@ -1,0 +1,41 @@
+﻿<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Elbow" xml:space="preserve">
+		<value>El codo es la región entre el brazo y el antebrazo que rodea la articulación del codo.</value>
+	</data>
+	<data name="Ankle" xml:space="preserve">
+		<value>El tobillo, o la región talocrural, o el hueso saltador (informal) es el área donde se unen el pie y la pierna.</value>
+	</data>
+	<data name="Hip" xml:space="preserve">
+		<value>La articulación de la cadera es una articulación esférica que es el punto de articulación entre la cabeza del fémur y el acetábulo de la pelvis.</value>
+	</data>
+	<data name="Knee" xml:space="preserve">
+		<value>La rodilla une el muslo con la pierna y consta de dos articulaciones: una entre el fémur y la tibia (articulación tibiofemoral) y otra entre el fémur y la rótula (articulación femororrotuliana).</value>
+	</data>
+	<data name="LowerBack" xml:space="preserve">
+		<value>La parte inferior de la espalda contiene 5 huesos vertebrales apilados uno encima del otro con discos intervertebrales en el medio. Estos huesos están conectados en la parte posterior con articulaciones especializadas. La columna lumbar se conecta con la columna torácica arriba y las caderas abajo.</value>
+	</data>
+	<data name="Neck" xml:space="preserve">
+		<value>El cuello es la parte del cuerpo de muchos vertebrados que conecta la cabeza con el torso y proporciona la movilidad y los movimientos de la cabeza.</value>
+	</data>
+	<data name="Shoulder" xml:space="preserve">
+		<value>El hombro está formado por tres huesos: el hueso de la parte superior del brazo (húmero), el omóplato (escápula) y la clavícula (clavícula).</value>
+	</data>
+	<data name="UpperBack" xml:space="preserve">
+		<value>La columna torácica, también conocida como la parte superior de la espalda o la parte media de la espalda, está diseñada para brindar estabilidad para anclar la caja torácica y proteger los órganos internos vitales dentro del tórax.</value>
+	</data>
+	<data name="Wrist" xml:space="preserve">
+		<value>La muñeca, también llamada carpo, articulación compleja entre los cinco huesos metacarpianos de la mano y los huesos radio y cúbito del antebrazo.</value>
+	</data>
+</root>

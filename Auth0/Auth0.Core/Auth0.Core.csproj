@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<AssemblyName>ICS.Auth0.Core</AssemblyName>
+		<RootNamespace>ICS.Auth0</RootNamespace>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\Core\ICS.Core\ICS.Core.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="NServiceBus" />
+		<Using Include="System.Text.Json.Serialization" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<AssemblyName>ICS.Workout.Infrastructure</AssemblyName>
+		<RootNamespace>ICS.Workout</RootNamespace>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Workout.Core\Workout.Core.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="ICS.Workout" />
+		<Using Include="Microsoft.EntityFrameworkCore" />
+		<Using Include="Microsoft.EntityFrameworkCore.Metadata.Builders" />
+		<Using Include="System.Collections.ObjectModel" />
+	</ItemGroup>
+
+</Project>

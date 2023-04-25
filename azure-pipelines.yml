@@ -1,0 +1,58 @@
+pool:
+  name: 'Azure Pipelines'
+  vmImage: 'windows-2022'
+  
+trigger:
+  branches:
+    include:
+    - master
+
+pr:
+  branches:
+    include:
+    - master
+
+variables:
+  BuildConfiguration: 'Release'
+  BuildPlatform: 'Any CPU'
+  SolutionPath: 'IronClanStudios.Api.sln'
+  EnvironmentTarget: 'Production'
+
+steps:
+  - task: DotNetCoreCLI@2
+    displayName: 'DotNet Restore'
+    inputs:
+      command: restore
+      projects: $(SolutionPath)
+  
+  - task: DotNetCoreCLI@2
+    displayName: 'DotNet Build'
+    inputs:
+      projects: $(SolutionPath)
+      arguments: '--configuration $(BuildConfiguration) --no-restore'
+
+  - task: DotNetCoreCLI@2
+    displayName: 'DotNet Test'
+    inputs:
+      command: test
+      projects: |
+        **/*.Test.Unit.csproj
+      arguments: >
+        --configuration $(BuildConfiguration)
+        --collect "Code Coverage"
+        --no-build
+  
+  - task: DotNetCoreCLI@2
+    displayName: 'DotNet Publish'
+    inputs:
+      command: publish
+      publishWebProjects: false
+      zipAfterPublish: false
+      projects: |
+        **/IronClanStudios.Api.csproj
+      arguments: '--no-build --configuration $(BuildConfiguration) --output $(build.artifactstagingdirectory)'
+
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish Artifact'
+    inputs:
+      ArtifactName: Drop

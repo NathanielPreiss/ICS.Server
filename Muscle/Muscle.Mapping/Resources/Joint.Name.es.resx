@@ -1,0 +1,41 @@
+﻿<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Ankle" xml:space="preserve">
+		<value>Tobillo</value>
+	</data>
+	<data name="Elbow" xml:space="preserve">
+		<value>Codo</value>
+	</data>
+	<data name="Hip" xml:space="preserve">
+		<value>Cadera</value>
+	</data>
+	<data name="Knee" xml:space="preserve">
+		<value>Rodilla</value>
+	</data>
+	<data name="LowerBack" xml:space="preserve">
+		<value>Espalda baja</value>
+	</data>
+	<data name="Neck" xml:space="preserve">
+		<value>Cuello</value>
+	</data>
+	<data name="Shoulder" xml:space="preserve">
+		<value>Hombro</value>
+	</data>
+	<data name="UpperBack" xml:space="preserve">
+		<value>Superior de la espalda</value>
+	</data>
+	<data name="Wrist" xml:space="preserve">
+		<value>Pulsera</value>
+	</data>
+</root>

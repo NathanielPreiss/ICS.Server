@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<AssemblyName>ICS.Equipment.Mapping</AssemblyName>
+		<RootNamespace>ICS.Equipment</RootNamespace>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Equipment.Core\Equipment.Core.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Resources\EquipmentGroup.Description.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>EquipmentGroup.Description.resx</DependentUpon>
+	  </Compile>
+	  <Compile Update="Resources\EquipmentGroup.Name.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>EquipmentGroup.Name.resx</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Update="Resources\EquipmentGroup.Description.resx">
+	    <Generator>ResXFileCodeGenerator</Generator>
+	    <LastGenOutput>EquipmentGroup.Description.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Resources\EquipmentGroup.Name.resx">
+	    <Generator>ResXFileCodeGenerator</Generator>
+	    <LastGenOutput>EquipmentGroup.Name.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<AssemblyName>ICS.Exercise.Service</AssemblyName>
+		<RootNamespace>ICS.Exercise</RootNamespace>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Exercise.Infrastructure\Exercise.Infrastructure.csproj" />
+		<ProjectReference Include="..\Exercise.Mapping\Exercise.Mapping.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="ICS.Equipment" />
+		<Using Include="ICS.Muscle" />
+		<Using Include="Microsoft.EntityFrameworkCore" />
+		<Using Include="Microsoft.Extensions.Logging" />
+	</ItemGroup>
+
+</Project>

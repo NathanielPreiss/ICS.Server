@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<AssemblyName>ICS.Auth0.Service</AssemblyName>
+		<RootNamespace>ICS.Auth0</RootNamespace>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Auth0.AuthenticationApi" Version="7.17.0" />
+		<PackageReference Include="Auth0.ManagementApi" Version="7.17.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Auth0.Infrastructure\Auth0.Infrastructure.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="Auth0.AuthenticationApi" />
+		<Using Include="Auth0.AuthenticationApi.Models" />
+		<Using Include="Auth0.ManagementApi" />
+		<Using Include="Auth0.ManagementApi.Models" />
+		<Using Include="Auth0.ManagementApi.Paging" />
+		<Using Include="Microsoft.EntityFrameworkCore" />
+		<Using Include="Microsoft.Extensions.Logging" />
+		<Using Include="Newtonsoft.Json.Linq" />
+		<Using Include="NServiceBus" />
+	</ItemGroup>
+
+</Project>

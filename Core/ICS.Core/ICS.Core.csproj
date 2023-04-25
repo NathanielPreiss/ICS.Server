@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<AssemblyName>ICS.Core</AssemblyName>
+		<RootNamespace>ICS</RootNamespace>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.7" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1" />
+		<PackageReference Include="NServiceBus" Version="7.7.4" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="Microsoft.Data.SqlClient" />
+		<Using Include="Microsoft.EntityFrameworkCore" />
+		<Using Include="Microsoft.Extensions.Logging" />
+		<Using Include="System.ComponentModel" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Exceptions\Resources\ErrorMessage.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>ErrorMessage.resx</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Update="Exceptions\Resources\ErrorMessage.en-us.resx">
+	    <DependentUpon>ErrorMessage.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Exceptions\Resources\ErrorMessage.es.resx">
+	    <DependentUpon>ErrorMessage.resx</DependentUpon>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Exceptions\Resources\ErrorMessage.resx">
+	    <Generator>ResXFileCodeGenerator</Generator>
+	    <LastGenOutput>ErrorMessage.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,79 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<AssemblyName>ICS.Api</AssemblyName>
+		<RootNamespace>ICS.Api</RootNamespace>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GenerateDocumentationFile>False</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+		<PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.7" />
+		<PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.7" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.7">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.7" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.7">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.Extensions.Logging.ApplicationInsights" Version="2.21.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="6.0.0" />
+		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.7" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="NServiceBus.CommonLogging" Version="5.1.0" />
+		<PackageReference Include="NServiceBus.Extensions.Hosting" Version="1.1.0" />
+		<PackageReference Include="NServiceBus.Heartbeat" Version="3.0.1" />
+		<PackageReference Include="NServiceBus.Metrics.ServiceControl" Version="3.0.6" />
+		<PackageReference Include="NServiceBus.Newtonsoft.Json" Version="2.4.0" />
+		<PackageReference Include="NServiceBus.Transport.AzureServiceBus" Version="2.0.2" />
+		<PackageReference Include="NSwag.AspNetCore" Version="13.18.2" />
+		<PackageReference Include="Swagger" Version="1.0.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.4.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.4.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Auth0\Auth0.Application\Auth0.Application.csproj" />
+		<ProjectReference Include="..\Equipment\Equipment.Application\Equipment.Application.csproj" />
+		<ProjectReference Include="..\Exercise\Exercise.Application\Exercise.Application.csproj" />
+		<ProjectReference Include="..\Muscle\Muscle.Application\Muscle.Application.csproj" />
+		<ProjectReference Include="..\Workout\Workout.Application\Workout.Application.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="Autofac" />
+		<Using Include="Autofac.Extensions.DependencyInjection" />
+		<Using Include="ICS.Auth0" />
+		<Using Include="ICS.Equipment" />
+		<Using Include="ICS.Exercise" />
+		<Using Include="ICS.Muscle" />
+		<Using Include="ICS.Workout" />
+		<Using Include="Microsoft.ApplicationInsights.AspNetCore.Extensions" />
+		<Using Include="Microsoft.ApplicationInsights.DependencyCollector" />
+		<Using Include="Microsoft.AspNetCore.Authentication.JwtBearer" />
+		<Using Include="Microsoft.AspNetCore.Authorization" />
+		<Using Include="Microsoft.AspNetCore.Mvc.Authorization" />
+		<Using Include="Microsoft.EntityFrameworkCore" />
+		<Using Include="Microsoft.Extensions.Configuration" />
+		<Using Include="Microsoft.Extensions.Hosting" />
+		<Using Include="Microsoft.Extensions.Logging.ApplicationInsights" />
+		<Using Include="Microsoft.IdentityModel.Tokens" />
+		<Using Include="Microsoft.OpenApi.Models" />
+		<Using Include="NServiceBus" />
+		<Using Include="System.Security.Cryptography" />
+		<Using Include="System.Text" />
+		<Using Include="System.Text.Json" />
+		<Using Include="System.Text.Json.Serialization" />
+		<Using Include="System.Text.RegularExpressions" />
+	</ItemGroup>
+
+</Project>

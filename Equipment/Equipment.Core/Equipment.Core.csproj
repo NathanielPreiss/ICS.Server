@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<AssemblyName>ICS.Equipment.Core</AssemblyName>
+		<RootNamespace>ICS.Equipment</RootNamespace>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\Core\ICS.Core\ICS.Core.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="System.Collections.ObjectModel" />
+		<Using Include="System.ComponentModel" />
+		<Using Include="System.Text.Json.Serialization" />
+	</ItemGroup>
+
+</Project>

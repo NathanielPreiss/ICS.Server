@@ -1,0 +1,90 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<AssemblyName>ICS.Exercise.Mapping</AssemblyName>
+		<RootNamespace>ICS.Exercise</RootNamespace>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Exercise.Core\Exercise.Core.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="Resources\Exercise.Description.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Exercise.Description.resx</DependentUpon>
+		</Compile>
+		<Compile Update="Resources\Exercise.Name.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Exercise.Name.resx</DependentUpon>
+		</Compile>
+		<Compile Update="Resources\Mechanic.Name.Designer.cs">
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		  <DependentUpon>Mechanic.Name.resx</DependentUpon>
+		</Compile>
+		<Compile Update="Resources\MuscleEngagement.Name.Designer.cs">
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		  <DependentUpon>MuscleEngagement.Name.resx</DependentUpon>
+		</Compile>
+		<Compile Update="Resources\Utility.Name.Designer.cs">
+		  <DesignTime>True</DesignTime>
+		  <AutoGen>True</AutoGen>
+		  <DependentUpon>Utility.Name.resx</DependentUpon>
+		</Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Update="Resources\Exercise.Description.es.resx">
+		  <DependentUpon>Exercise.Description.resx</DependentUpon>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Exercise.Description.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>Exercise.Description.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Exercise.Name.es.resx">
+		  <DependentUpon>Exercise.Name.resx</DependentUpon>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Exercise.Name.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>Exercise.Name.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Mechanic.Name.en-us.resx">
+		  <DependentUpon>Mechanic.Name.resx</DependentUpon>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Mechanic.Name.es.resx">
+		  <DependentUpon>Mechanic.Name.resx</DependentUpon>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Mechanic.Name.resx">
+		  <Generator>ResXFileCodeGenerator</Generator>
+		  <LastGenOutput>Mechanic.Name.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\MuscleEngagement.Name.en-us.resx">
+		  <DependentUpon>MuscleEngagement.Name.resx</DependentUpon>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\MuscleEngagement.Name.es.resx">
+		  <DependentUpon>MuscleEngagement.Name.resx</DependentUpon>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\MuscleEngagement.Name.resx">
+		  <Generator>ResXFileCodeGenerator</Generator>
+		  <LastGenOutput>MuscleEngagement.Name.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Utility.Name.en-us.resx">
+		  <DependentUpon>Utility.Name.resx</DependentUpon>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Utility.Name.es.resx">
+		  <DependentUpon>Utility.Name.resx</DependentUpon>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Utility.Name.resx">
+		  <Generator>ResXFileCodeGenerator</Generator>
+		  <LastGenOutput>Utility.Name.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
+
+</Project>

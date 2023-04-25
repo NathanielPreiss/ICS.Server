@@ -1,0 +1,128 @@
+﻿<root>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Abductors" xml:space="preserve">
+		<value>Abductors</value>
+	</data>
+	<data name="Adductors" xml:space="preserve">
+		<value>Adductors</value>
+	</data>
+	<data name="AnteriorDeltoid" xml:space="preserve">
+		<value>Anterior Deltoid</value>
+	</data>
+	<data name="BicepsBrachii" xml:space="preserve">
+		<value>Biceps Brachii</value>
+	</data>
+	<data name="Brachialis" xml:space="preserve">
+		<value>Brachialis</value>
+	</data>
+	<data name="Brachioradialis" xml:space="preserve">
+		<value>Brachioradialis</value>
+	</data>
+	<data name="ErectorSpinae" xml:space="preserve">
+		<value>Erector Spinae</value>
+	</data>
+	<data name="Flexors" xml:space="preserve">
+		<value>Flexors</value>
+	</data>
+	<data name="Gastrocnemius" xml:space="preserve">
+		<value>Gastrocnemius</value>
+	</data>
+	<data name="GluteusMaximus" xml:space="preserve">
+		<value>Gluteus Maximus</value>
+	</data>
+	<data name="Hamstrings" xml:space="preserve">
+		<value>Hamstrings</value>
+	</data>
+	<data name="Infraspinatus" xml:space="preserve">
+		<value>Infraspinatus</value>
+	</data>
+	<data name="LateralDeltoid" xml:space="preserve">
+		<value>Lateral Deltoid</value>
+	</data>
+	<data name="LatissimusDorsi" xml:space="preserve">
+		<value>Latissimus Dorsi</value>
+	</data>
+	<data name="LevatorScapulae" xml:space="preserve">
+		<value>Levator Scapulae</value>
+	</data>
+	<data name="Obliques" xml:space="preserve">
+		<value>Obliques</value>
+	</data>
+	<data name="PectoralisMajor" xml:space="preserve">
+		<value>Pectoralis Major</value>
+	</data>
+	<data name="PectoralisMinor" xml:space="preserve">
+		<value>Pectoralis Minor</value>
+	</data>
+	<data name="PosteriorDeltoid" xml:space="preserve">
+		<value>Posterior Deltoid</value>
+	</data>
+	<data name="QuadratusLumborum" xml:space="preserve">
+		<value>Quadratus Lumborum</value>
+	</data>
+	<data name="Quadriceps" xml:space="preserve">
+		<value>Quadriceps</value>
+	</data>
+	<data name="RectusAbdominis" xml:space="preserve">
+		<value>Rectus Abdominis</value>
+	</data>
+	<data name="Rhomboids" xml:space="preserve">
+		<value>Rhomboids</value>
+	</data>
+	<data name="SerratusAnterior" xml:space="preserve">
+		<value>Serratus Anterior</value>
+	</data>
+	<data name="Soleus" xml:space="preserve">
+		<value>Soleus</value>
+	</data>
+	<data name="Splenius" xml:space="preserve">
+		<value>Splenius</value>
+	</data>
+	<data name="Sternocleidomastoid" xml:space="preserve">
+		<value>Sternocleidomastoid</value>
+	</data>
+	<data name="Subscapularis" xml:space="preserve">
+		<value>Subscapularis</value>
+	</data>
+	<data name="Supraspinatus" xml:space="preserve">
+		<value>Supraspinatus</value>
+	</data>
+	<data name="Teres" xml:space="preserve">
+		<value>Teres</value>
+	</data>
+	<data name="TibialisAnterior" xml:space="preserve">
+		<value>Tibialis Anterior</value>
+	</data>
+	<data name="TransverseAbdominis" xml:space="preserve">
+		<value>Transverse Abdominis</value>
+	</data>
+	<data name="Trapezius" xml:space="preserve">
+		<value>Trapezius</value>
+	</data>
+	<data name="TricepsBrachii" xml:space="preserve">
+		<value>Triceps Brachii</value>
+	</data>
+	<data name="WristExtendors" xml:space="preserve">
+		<value>Wrist Extendors</value>
+	</data>
+	<data name="WristFlexors" xml:space="preserve">
+		<value>Wrist Flexors</value>
+	</data>
+	<data name="WristPronator" xml:space="preserve">
+		<value>Wrist Pronator</value>
+	</data>
+	<data name="WristSupinator" xml:space="preserve">
+		<value>Wrist Supinator</value>
+	</data>
+</root>

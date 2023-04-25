@@ -1,0 +1,150 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<AssemblyName>ICS.Muscle.Mapping</AssemblyName>
+		<RootNamespace>ICS.Muscle</RootNamespace>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Muscle.Core\Muscle.Core.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="Resources\Joint.Description.Designer.cs">
+			<DependentUpon>Joint.Description.resx</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Resources\Joint.Name.Designer.cs">
+			<DependentUpon>Joint.Name.resx</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Resources\Muscle.Description.Designer.cs">
+			<DependentUpon>Muscle.Description.resx</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Resources\Muscle.Name.Designer.cs">
+			<DependentUpon>Muscle.Name.resx</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Resources\Muscle.Name.Designer.cs">
+			<DependentUpon>Muscle.Name.resx</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Resources\MuscleGroup.Description.Designer.cs">
+			<DependentUpon>MuscleGroup.Description.resx</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Resources\MuscleGroup.Name.Designer.cs">
+			<DependentUpon>MuscleGroup.Name.resx</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+		<Compile Update="Resources\BodyArea.Description.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>BodyArea.Description.resx</DependentUpon>
+		</Compile>
+		<Compile Update="Resources\BodyArea.Name.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>BodyArea.Name.resx</DependentUpon>
+		</Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Update="Resources\BodyArea.Description.en-us.resx">
+		  <DependentUpon>BodyArea.Description.resx</DependentUpon>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\BodyArea.Description.es.resx">
+		  <DependentUpon>BodyArea.Description.resx</DependentUpon>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\BodyArea.Name.en-US.resx">
+			<DependentUpon>BodyArea.Name.resx</DependentUpon>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\BodyArea.Name.es.resx">
+		  <DependentUpon>BodyArea.Name.resx</DependentUpon>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Joint.Description.en-us.resx">
+		  <DependentUpon>Joint.Description.resx</DependentUpon>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Joint.Description.es.resx">
+		  <DependentUpon>Joint.Description.resx</DependentUpon>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Joint.Description.resx">
+			<LastGenOutput>Joint.Description.Designer.cs</LastGenOutput>
+			<Generator>ResXFileCodeGenerator</Generator>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Joint.Name.en-us.resx">
+		  <DependentUpon>Joint.Name.resx</DependentUpon>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Joint.Name.es.resx">
+		  <DependentUpon>Joint.Name.resx</DependentUpon>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Joint.Name.resx">
+			<LastGenOutput>Joint.Name.Designer.cs</LastGenOutput>
+			<Generator>ResXFileCodeGenerator</Generator>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Muscle.Description.en-us.resx">
+		  <DependentUpon>Muscle.Description.resx</DependentUpon>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Muscle.Description.es.resx">
+		  <DependentUpon>Muscle.Description.resx</DependentUpon>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Muscle.Description.resx">
+			<LastGenOutput>Muscle.Description.Designer.cs</LastGenOutput>
+			<Generator>ResXFileCodeGenerator</Generator>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Muscle.Name.en-us.resx">
+		  <DependentUpon>Muscle.Name.resx</DependentUpon>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Muscle.Name.es.resx">
+		  <DependentUpon>Muscle.Name.resx</DependentUpon>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Muscle.Name.resx">
+			<LastGenOutput>Muscle.Description.Designer.cs</LastGenOutput>
+			<Generator>ResXFileCodeGenerator</Generator>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\Muscle.Name.resx">
+			<LastGenOutput>Muscle.Name.Designer.cs</LastGenOutput>
+			<Generator>ResXFileCodeGenerator</Generator>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\MuscleGroup.Description.en-us.resx">
+		  <DependentUpon>MuscleGroup.Description.resx</DependentUpon>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\MuscleGroup.Description.es.resx">
+		  <DependentUpon>MuscleGroup.Description.resx</DependentUpon>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\MuscleGroup.Description.resx">
+			<LastGenOutput>MuscleGroup.Description.Designer.cs</LastGenOutput>
+			<Generator>ResXFileCodeGenerator</Generator>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\MuscleGroup.Name.en-us.resx">
+		  <DependentUpon>MuscleGroup.Name.resx</DependentUpon>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\MuscleGroup.Name.es.resx">
+		  <DependentUpon>MuscleGroup.Name.resx</DependentUpon>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\MuscleGroup.Name.resx">
+			<LastGenOutput>MuscleGroup.Name.Designer.cs</LastGenOutput>
+			<Generator>ResXFileCodeGenerator</Generator>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\BodyArea.Description.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>BodyArea.Description.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Resources\BodyArea.Name.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>BodyArea.Name.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
+
+</Project>
